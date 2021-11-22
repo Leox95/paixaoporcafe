@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    background-image: url(../img/graoscafe.jpg);
+    background-size: contain;
+    background-position: center center;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    width: 20%;
+}
+.menu{
+    display: inline-flex;
+}
+.itensmenu{
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+}
+.itens{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: brown;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    margin-top: 2em;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
+h6{
+    text-align: center;
+    margin: 0 0 2em 0;
+}
+.cards{
+    display: block;
+    justify-content: space-evenly;
+}
+section p{
+    text-align: center;
+}
+section button{
+    background-color: brown;
+    color: white;
+}
+footer{
+    display: block;
+    background-image: url(../img/graoscafe.jpg);
+    background-size: contain;
+    background-position: center center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 3em;
+    color: white;
+}
