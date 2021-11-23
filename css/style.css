@@ -78,8 +78,19 @@ footer{
     display: flex;
     justify-content: center;
 }
-.historia{
-
-
-
+/* css página contato*/
+form{
+    text-align: center;
+}
+label{
+    display: block;
+    margin-top: 2em;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
+.enviar{
+    margin-top: 2em;
+    background-color: brown;
+    color: white;
 }
