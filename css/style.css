@@ -39,8 +39,8 @@ h1{
     
 }
 section{
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    text-align: center;
 }
 h2{
     margin-top: 2em;
@@ -52,11 +52,9 @@ h6{
     text-align: center;
     margin: 0 0 2em 0;
 }
+
 .cards{
     display: block;
-    justify-content: space-evenly;
-}
-section p{
     text-align: center;
 }
 section button{
@@ -72,6 +70,9 @@ footer{
     text-align: center;
     margin-top: 3em;
     color: white;
+}
+.botaocomprar{
+    margin: 0 0 1em 0;
 }
 /*css página institucional*/
 .container{
@@ -93,4 +94,10 @@ label{
     margin-top: 2em;
     background-color: brown;
     color: white;
+}
+a{
+    text-decoration: none;
+}
+.imgcompra{
+    margin-top: 2em;
 }
